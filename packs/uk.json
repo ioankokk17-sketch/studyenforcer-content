@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "country_code": "uk",
+  "country_name": "United Kingdom",
+  "flag": "🇬🇧",
+  "language": "en",
+  "grades": [
+    {"key": "reception", "label": "Reception (Year R)"},
+    {"key": "year1",     "label": "Year 1"},
+    {"key": "year2",     "label": "Year 2"},
+    {"key": "year3",     "label": "Year 3"},
+    {"key": "year4",     "label": "Year 4"},
+    {"key": "year5",     "label": "Year 5"},
+    {"key": "year6",     "label": "Year 6"},
+    {"key": "year7",     "label": "Year 7"},
+    {"key": "year8",     "label": "Year 8"},
+    {"key": "year9",     "label": "Year 9"},
+    {"key": "year10",    "label": "Year 10"},
+    {"key": "year11",    "label": "Year 11"},
+    {"key": "year12",    "label": "Year 12 (Sixth Form)"},
+    {"key": "year13",    "label": "Year 13 (Sixth Form)"}
+  ],
+  "subjects": ["Math", "Science", "English", "History", "Geography"]
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "countries": [
+    {"code": "us", "name": "United States",   "flag": "🇺🇸"},
+    {"code": "uk", "name": "United Kingdom",   "flag": "🇬🇧"},
+    {"code": "ca", "name": "Canada",           "flag": "🇨🇦"},
+    {"code": "au", "name": "Australia",        "flag": "🇦🇺"},
+    {"code": "es", "name": "Spain",            "flag": "🇪🇸"},
+    {"code": "mx", "name": "Mexico",           "flag": "🇲🇽"},
+    {"code": "fr", "name": "France",           "flag": "🇫🇷"},
+    {"code": "de", "name": "Germany",          "flag": "🇩🇪"}
+  ]
+}

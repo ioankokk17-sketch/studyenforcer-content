@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "country_code": "mx",
+  "country_name": "Mexico",
+  "flag": "🇲🇽",
+  "language": "es",
+  "grades": [
+    {"key": "preescolar1", "label": "Preescolar 1.º"},
+    {"key": "preescolar2", "label": "Preescolar 2.º"},
+    {"key": "preescolar3", "label": "Preescolar 3.º"},
+    {"key": "primaria1",   "label": "Primaria 1.º"},
+    {"key": "primaria2",   "label": "Primaria 2.º"},
+    {"key": "primaria3",   "label": "Primaria 3.º"},
+    {"key": "primaria4",   "label": "Primaria 4.º"},
+    {"key": "primaria5",   "label": "Primaria 5.º"},
+    {"key": "primaria6",   "label": "Primaria 6.º"},
+    {"key": "secundaria1", "label": "Secundaria 1.º"},
+    {"key": "secundaria2", "label": "Secundaria 2.º"},
+    {"key": "secundaria3", "label": "Secundaria 3.º"},
+    {"key": "prepa1",      "label": "Preparatoria 1.º"},
+    {"key": "prepa2",      "label": "Preparatoria 2.º"},
+    {"key": "prepa3",      "label": "Preparatoria 3.º"}
+  ],
+  "subjects": ["Math", "Science", "English", "History", "Geography"]
+}

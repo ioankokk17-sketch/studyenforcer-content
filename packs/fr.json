@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "country_code": "fr",
+  "country_name": "France",
+  "flag": "🇫🇷",
+  "language": "fr",
+  "grades": [
+    {"key": "ps",        "label": "Petite Section (PS)"},
+    {"key": "ms",        "label": "Moyenne Section (MS)"},
+    {"key": "gs",        "label": "Grande Section (GS)"},
+    {"key": "cp",        "label": "CP (Cours Préparatoire)"},
+    {"key": "ce1",       "label": "CE1"},
+    {"key": "ce2",       "label": "CE2"},
+    {"key": "cm1",       "label": "CM1"},
+    {"key": "cm2",       "label": "CM2"},
+    {"key": "6eme",      "label": "6ème"},
+    {"key": "5eme",      "label": "5ème"},
+    {"key": "4eme",      "label": "4ème"},
+    {"key": "3eme",      "label": "3ème"},
+    {"key": "seconde",   "label": "Seconde"},
+    {"key": "premiere",  "label": "Première"},
+    {"key": "terminale", "label": "Terminale"}
+  ],
+  "subjects": ["Math", "Science", "English", "History", "Geography"]
+}
