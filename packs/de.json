@@ -1,22 +1,36 @@
-{
-  "version": 1,
-  "country_code": "de",
-  "country_name": "Germany",
-  "flag": "🇩🇪",
-  "language": "de",
-  "grades": [
-    {"key": "klasse1",  "label": "Klasse 1"},
-    {"key": "klasse2",  "label": "Klasse 2"},
-    {"key": "klasse3",  "label": "Klasse 3"},
-    {"key": "klasse4",  "label": "Klasse 4"},
-    {"key": "klasse5",  "label": "Klasse 5"},
-    {"key": "klasse6",  "label": "Klasse 6"},
-    {"key": "klasse7",  "label": "Klasse 7"},
-    {"key": "klasse8",  "label": "Klasse 8"},
-    {"key": "klasse9",  "label": "Klasse 9"},
-    {"key": "klasse10", "label": "Klasse 10"},
-    {"key": "klasse11", "label": "Klasse 11 (Oberstufe)"},
-    {"key": "klasse12", "label": "Klasse 12 / Abitur"}
-  ],
-  "subjects": ["Math", "Science", "English", "History", "Geography"]
+﻿{
+    "version":  1,
+    "country_code":  "de",
+    "country_name":  "Germany",
+    "flag":  "π‡©π‡",
+    "language":  "de",
+    "grades":  [
+                   {
+                       "key":  "kindergarten",
+                       "label":  "Kindergarten / Vorschule"
+                   },
+                   {
+                       "key":  "klasse1",
+                       "label":  "Klasse 1"
+                   },
+                   {
+                       "key":  "klasse2",
+                       "label":  "Klasse 2"
+                   },
+                   {
+                       "key":  "klasse3",
+                       "label":  "Klasse 3"
+                   },
+                   {
+                       "key":  "klasse4",
+                       "label":  "Klasse 4"
+                   }
+               ],
+    "subjects":  [
+                     "Math",
+                     "Science",
+                     "English",
+                     "History",
+                     "Geography"
+                 ]
 }

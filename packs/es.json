@@ -1,25 +1,52 @@
-{
-  "version": 1,
-  "country_code": "es",
-  "country_name": "Spain",
-  "flag": "🇪🇸",
-  "language": "es",
-  "grades": [
-    {"key": "infantil3", "label": "Educación Infantil (3 años)"},
-    {"key": "infantil4", "label": "Educación Infantil (4 años)"},
-    {"key": "infantil5", "label": "Educación Infantil (5 años)"},
-    {"key": "primaria1", "label": "1.º Primaria"},
-    {"key": "primaria2", "label": "2.º Primaria"},
-    {"key": "primaria3", "label": "3.º Primaria"},
-    {"key": "primaria4", "label": "4.º Primaria"},
-    {"key": "primaria5", "label": "5.º Primaria"},
-    {"key": "primaria6", "label": "6.º Primaria"},
-    {"key": "eso1",      "label": "1.º ESO"},
-    {"key": "eso2",      "label": "2.º ESO"},
-    {"key": "eso3",      "label": "3.º ESO"},
-    {"key": "eso4",      "label": "4.º ESO"},
-    {"key": "bach1",     "label": "1.º Bachillerato"},
-    {"key": "bach2",     "label": "2.º Bachillerato"}
-  ],
-  "subjects": ["Math", "Science", "English", "History", "Geography"]
+﻿{
+    "version":  1,
+    "country_code":  "es",
+    "country_name":  "Spain",
+    "flag":  "π‡π‡Έ",
+    "language":  "es",
+    "grades":  [
+                   {
+                       "key":  "infantil3",
+                       "label":  "EducaciΓ³n Infantil (3 aΓ±os)"
+                   },
+                   {
+                       "key":  "infantil4",
+                       "label":  "EducaciΓ³n Infantil (4 aΓ±os)"
+                   },
+                   {
+                       "key":  "infantil5",
+                       "label":  "EducaciΓ³n Infantil (5 aΓ±os)"
+                   },
+                   {
+                       "key":  "primaria1",
+                       "label":  "1.ΒΊ Primaria"
+                   },
+                   {
+                       "key":  "primaria2",
+                       "label":  "2.ΒΊ Primaria"
+                   },
+                   {
+                       "key":  "primaria3",
+                       "label":  "3.ΒΊ Primaria"
+                   },
+                   {
+                       "key":  "primaria4",
+                       "label":  "4.ΒΊ Primaria"
+                   },
+                   {
+                       "key":  "primaria5",
+                       "label":  "5.ΒΊ Primaria"
+                   },
+                   {
+                       "key":  "primaria6",
+                       "label":  "6.ΒΊ Primaria"
+                   }
+               ],
+    "subjects":  [
+                     "Math",
+                     "Science",
+                     "English",
+                     "History",
+                     "Geography"
+                 ]
 }
