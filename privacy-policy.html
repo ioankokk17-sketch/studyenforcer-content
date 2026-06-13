@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study Enforcer — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.2em; margin-top: 1.8em; }
+  footer { margin-top: 3em; font-size: 0.85em; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy for Study Enforcer</h1>
+<p><em>Last updated: 13 June 2026</em></p>
+
+<p>
+Study Enforcer ("the app") is a parental-control app that helps a parent
+limit a child's screen time on shared family devices and encourages
+educational quiz breaks. This policy explains what information the app
+handles and how.
+</p>
+
+<h2>1. Information the app collects</h2>
+<p>
+Study Enforcer does <strong>not</strong> require an account, does not collect
+personal information, and does not transmit any data to the app developer
+or to any analytics, advertising, or tracking service. All data described
+below stays on the device and is never uploaded anywhere.
+</p>
+<ul>
+  <li><strong>Parental PIN</strong> — stored only as a SHA-256 hash on the
+      device, used to unlock parent settings. It is never transmitted.</li>
+  <li><strong>App usage / screen-time data</strong> — the app records, on
+      the device only, which selected app(s) are in the foreground and for
+      how long, in order to enforce time limits and daily quotas. This data
+      is stored locally and is visible only to the parent inside the app's
+      Activity Log.</li>
+  <li><strong>Quiz settings and progress</strong> — grade level, subject,
+      difficulty, badges earned, and quiz answer history are stored locally
+      to personalise the questions shown to the child.</li>
+</ul>
+
+<h2>2. Accessibility Service usage</h2>
+<p>
+Study Enforcer uses Android's Accessibility Service API for one purpose
+only: to detect which app is currently in the foreground (its package
+name) so the app can measure screen time and trigger a quiz/block screen
+when a limit is reached. The service does <strong>not</strong> read screen
+content, text entered by the user, passwords, or any other on-screen
+information, and does not record audio or video.
+</p>
+
+<h2>3. Network access</h2>
+<p>
+The app makes network requests for one purpose: to download optional
+educational "content packs" (country-specific quiz question sets) from a
+static file hosting service
+(<code>https://ioankokk17-sketch.github.io/studyenforcer-content</code>).
+These requests do not include any personal data, device identifiers, or
+usage information — they simply fetch a public JSON file. If no content
+pack is downloaded, the app works fully offline using a bundled US
+question set.
+</p>
+
+<h2>4. Permissions the app requests, and why</h2>
+<ul>
+  <li><strong>Display over other apps (SYSTEM_ALERT_WINDOW)</strong> —
+      to show the full-screen quiz/block overlay when a limit is reached.</li>
+  <li><strong>Accessibility Service</strong> — see Section 2.</li>
+  <li><strong>Ignore battery optimisations</strong> — so the enforcement
+      service keeps running reliably in the background.</li>
+  <li><strong>Notifications</strong> — to show a persistent status
+      notification confirming the parental-control service is active.</li>
+  <li><strong>Run at startup (RECEIVE_BOOT_COMPLETED)</strong> — so
+      enforcement resumes automatically after the device restarts.</li>
+  <li><strong>Query installed apps</strong> — so the parent can pick which
+      apps to track from a list of installed apps on the device.</li>
+</ul>
+
+<h2>5. Children's privacy</h2>
+<p>
+Study Enforcer is designed to be configured by a parent or guardian and
+used on a shared family device. No personal information about a child is
+collected, stored remotely, or shared with third parties. All usage data
+remains on the device under the parent's control and can be cleared by
+uninstalling the app.
+</p>
+
+<h2>6. Data retention and deletion</h2>
+<p>
+All data is stored locally in the app's private storage. Uninstalling the
+app, or clearing its data via Android Settings, permanently deletes all
+stored information.
+</p>
+
+<h2>7. Changes to this policy</h2>
+<p>
+If this policy changes, the updated version will be posted at this same
+address with a revised "Last updated" date.
+</p>
+
+<h2>8. Contact</h2>
+<p>
+Questions about this policy can be sent to:
+<a href="mailto:ioankokk17@mst.duth.gr">ioankokk17@mst.duth.gr</a>
+</p>
+
+<footer>Study Enforcer — Privacy Policy</footer>
+</body>
+</html>
